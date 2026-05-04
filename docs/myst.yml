@@ -1,0 +1,20 @@
+version: 1
+project:
+  title: 2i2c Narratives
+  github: https://github.com/2i2c-org/narratives
+  plugins:
+    - https://github.com/jupyter-book/myst-plugins/releases/download/github-issue-link%402026-02-09/index.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/github-handle-links%402026-02-09/index.mjs
+    - https://raw.githubusercontent.com/jupyter-book/myst-plugins/main/plugins/emoji-shortcodes/emoji-shortcodes.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/footer-latest/index.mjs
+site:
+  template: book-theme
+  options:
+    logo_text: 2i2c Narratives
+    logo: images/logo.webp
+    logo_dark: images/logo-dark.webp
+    favicon: images/favicon.png
+    folders: true
+    hide_toc: true
+  parts:
+    footer: _site/footer.md

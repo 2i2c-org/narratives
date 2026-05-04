@@ -1,0 +1,8 @@
+.nox/
+__pycache__/
+# Myst outputs folder
+docs/_build/
+# We programmatically generate these at build time!
+docs/narrative/
+docs/_narratives_list.md
+docs/_site/footer.md
