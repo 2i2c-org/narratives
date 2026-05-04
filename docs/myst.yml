@@ -16,5 +16,6 @@ site:
     favicon: images/favicon.png
     folders: true
     hide_toc: true
+    internal_domains: "2i2c.org"
   parts:
     footer: _site/footer.md
